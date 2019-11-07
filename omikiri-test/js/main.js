@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   var s = Snap('#snap-container');
-  Snap.load('../imgs/_web.svg', function (loadedItem) {
+  Snap.load('/omikiri-test/imgs/_web.svg', function (loadedItem) {
     s.append(loadedItem);
 
     var rayContainer = s.select('#RayGroup').selectAll('g');
